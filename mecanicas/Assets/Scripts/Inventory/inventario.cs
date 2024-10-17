@@ -54,7 +54,7 @@ public class inventario : MonoBehaviour
     }
     public void AddItem(GameObject itemObject, int itemID, string itemType, string itemDescription, Sprite itemIcon)
     {
-        for(int i = 0; i <= allSlots; i++)
+        for(int i = 0; i < allSlots; i++)
         {
             if (slot[i].GetComponent<Slot>().empty)
             {
