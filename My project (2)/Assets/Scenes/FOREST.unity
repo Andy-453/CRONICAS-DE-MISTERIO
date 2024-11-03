@@ -484,183 +484,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 482554, guid: b3c489c06c04c1d4d835d20adc6ab60a, type: 3}
   m_PrefabInstance: {fileID: 611289213}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &53580352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 53580353}
-  - component: {fileID: 53580359}
-  - component: {fileID: 53580358}
-  - component: {fileID: 53580357}
-  - component: {fileID: 53580356}
-  - component: {fileID: 53580355}
-  - component: {fileID: 53580354}
-  m_Layer: 0
-  m_Name: Documetos (11)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &53580353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 140.08, y: -80.89, z: -281}
-  m_LocalScale: {x: 1, y: 0.34275213, z: 1.4662}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 684033977}
-  m_Father: {fileID: 1606945277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &53580354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcd503c7a35681844b7c20b380a733e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Documentos
-  description: 
-  icon: {fileID: 0}
-  pickedUp: 0
-  equipped: 0
-  keyManager: {fileID: 0}
-  DocumentManager: {fileID: 0}
-  key: {fileID: 0}
-  Document: {fileID: 0}
-  playersKey: 0
-  playersDocument: 0
---- !u!114 &53580355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f905b2f2cb059448635bfc2d1a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1244930665}
-  didDialogueStart: 0
-  lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
-  dialogueText: {fileID: 2013046704}
-  textSpeed: 0.01
---- !u!65 &53580356
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.99999994, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &53580357
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8746033, y: 5.0082636, z: 2.2537262}
-  m_Center: {x: 0.07594299, y: 2.004132, z: 0.006775181}
---- !u!23 &53580358
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &53580359
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53580352}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &56078422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1946,9 +1769,12 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "Para contener el mal, hemos usado el poder del laberinto, pero eso no ser\xE1
+    suficiente esta vez."
+  - Aquel que quiera sellar a los monstruos debe vencer sus miedos en el laberinto
+    y traer los documentos
+  - "El bosque es el fin y el principio; aqu\xED terminar\xE1 todo, o la oscuridad
+    atrapar\xE1 a los vivos y los muertos."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &191282701
@@ -2595,80 +2421,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3230732931169921993, guid: 54550fa7869561c40be4094791c00f26, type: 3}
   m_PrefabInstance: {fileID: 2038230739}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &251791119
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1973669885}
-    m_Modifications:
-    - target: {fileID: 100000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_Name
-      value: DruidTome
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7281413
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.670241
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08999634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26258036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0047664205
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef576f52dc48878439142897801a582b, type: 3}
---- !u!4 &251791120 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-  m_PrefabInstance: {fileID: 251791119}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &253108579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,183 +2854,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
   m_PrefabInstance: {fileID: 286157985}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &288970698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 288970699}
-  - component: {fileID: 288970705}
-  - component: {fileID: 288970704}
-  - component: {fileID: 288970703}
-  - component: {fileID: 288970702}
-  - component: {fileID: 288970701}
-  - component: {fileID: 288970700}
-  m_Layer: 0
-  m_Name: Documetos (2)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &288970699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -161, y: -76.8, z: -131}
-  m_LocalScale: {x: 1, y: 0.34275213, z: 1.4662}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1421462309}
-  m_Father: {fileID: 1606945277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &288970700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcd503c7a35681844b7c20b380a733e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Documentos
-  description: 
-  icon: {fileID: 0}
-  pickedUp: 0
-  equipped: 0
-  keyManager: {fileID: 0}
-  DocumentManager: {fileID: 0}
-  key: {fileID: 0}
-  Document: {fileID: 0}
-  playersKey: 0
-  playersDocument: 0
---- !u!114 &288970701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f905b2f2cb059448635bfc2d1a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1244930665}
-  didDialogueStart: 0
-  lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
-  dialogueText: {fileID: 2013046704}
-  textSpeed: 0.01
---- !u!65 &288970702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.99999994, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &288970703
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8746033, y: 5.0082636, z: 2.2537262}
-  m_Center: {x: 0.07594299, y: 2.004132, z: 0.006775181}
---- !u!23 &288970704
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &288970705
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288970698}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &290324235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3991,183 +3566,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73a46d03e13dd2b4ebddaeb829191c7d, type: 3}
---- !u!1 &353958009
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 353958010}
-  - component: {fileID: 353958016}
-  - component: {fileID: 353958015}
-  - component: {fileID: 353958014}
-  - component: {fileID: 353958013}
-  - component: {fileID: 353958012}
-  - component: {fileID: 353958011}
-  m_Layer: 0
-  m_Name: Documetos (7)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &353958010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -51, y: -81.06, z: -415}
-  m_LocalScale: {x: 1, y: 0.34275213, z: 1.4662}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1646963267}
-  m_Father: {fileID: 1606945277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &353958011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcd503c7a35681844b7c20b380a733e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Documentos
-  description: 
-  icon: {fileID: 0}
-  pickedUp: 0
-  equipped: 0
-  keyManager: {fileID: 0}
-  DocumentManager: {fileID: 0}
-  key: {fileID: 0}
-  Document: {fileID: 0}
-  playersKey: 0
-  playersDocument: 0
---- !u!114 &353958012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f905b2f2cb059448635bfc2d1a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1244930665}
-  didDialogueStart: 0
-  lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
-  dialogueText: {fileID: 2013046704}
-  textSpeed: 0.01
---- !u!65 &353958013
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.99999994, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &353958014
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8746033, y: 5.0082636, z: 2.2537262}
-  m_Center: {x: 0.07594299, y: 2.004132, z: 0.006775181}
---- !u!23 &353958015
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &353958016
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353958009}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &356525655 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3230732931169921993, guid: 54550fa7869561c40be4094791c00f26, type: 3}
@@ -4999,183 +4397,6 @@ Transform:
   - {fileID: 647308373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &448056061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 448056062}
-  - component: {fileID: 448056068}
-  - component: {fileID: 448056067}
-  - component: {fileID: 448056066}
-  - component: {fileID: 448056065}
-  - component: {fileID: 448056064}
-  - component: {fileID: 448056063}
-  m_Layer: 0
-  m_Name: Documetos (8)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &448056062
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 65, y: -80.99, z: -419}
-  m_LocalScale: {x: 1, y: 0.34275213, z: 1.4662}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1716914552}
-  m_Father: {fileID: 1606945277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &448056063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcd503c7a35681844b7c20b380a733e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Documentos
-  description: 
-  icon: {fileID: 0}
-  pickedUp: 0
-  equipped: 0
-  keyManager: {fileID: 0}
-  DocumentManager: {fileID: 0}
-  key: {fileID: 0}
-  Document: {fileID: 0}
-  playersKey: 0
-  playersDocument: 0
---- !u!114 &448056064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f905b2f2cb059448635bfc2d1a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1244930665}
-  didDialogueStart: 0
-  lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
-  dialogueText: {fileID: 2013046704}
-  textSpeed: 0.01
---- !u!65 &448056065
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.99999994, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &448056066
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8746033, y: 5.0082636, z: 2.2537262}
-  m_Center: {x: 0.07594299, y: 2.004132, z: 0.006775181}
---- !u!23 &448056067
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &448056068
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448056061}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &451199206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5597,9 +4818,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "Encuentra los documentos, y ll\xE9valos al altar. Si fallas, ser\xE1 el fin\u2026
+    para ti y para todos."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &472514516
@@ -6435,9 +5655,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "\xBFBuscas detener a los monstruos?"
+  - "El ritual es la \xFAnica forma."
+  - "Los documentos est\xE1n esparcidos en el bosque, pero el tiempo se agota."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &579312891
@@ -8157,80 +7377,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437890, guid: de989d50c4fd676479d25b597fc65314, type: 3}
   m_PrefabInstance: {fileID: 642400806}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &684033976
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 53580353}
-    m_Modifications:
-    - target: {fileID: 100000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_Name
-      value: DruidTome
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7281413
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.670241
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08999634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26258036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0047664205
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef576f52dc48878439142897801a582b, type: 3}
---- !u!4 &684033977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-  m_PrefabInstance: {fileID: 684033976}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &693555363
 GameObject:
   m_ObjectHideFlags: 0
@@ -9472,9 +8618,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "Corr\xED al bosque esperando encontrar paz, pero me di cuenta de que no hay
+    salida real."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &798040779
@@ -12696,9 +11841,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "El bosque y el pueblo son uno, conectados por el ritual que los habitantes desconoc\xEDan"
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1103568862
@@ -14166,8 +13309,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
+  - "El bosque es el \xFAltimo refugio."
+  - El altar guarda el poder de sellarlo, pero solo si se completa el ritual con
+    los objetos correctos.
   - lo veremos en el proximo capitulo
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
@@ -16195,80 +15339,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46aad46494938c844a7bfbbcb53b98e1, type: 3}
---- !u!1001 &1421462308
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 288970699}
-    m_Modifications:
-    - target: {fileID: 100000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_Name
-      value: DruidTome
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7281413
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.670241
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08999634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26258036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0047664205
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef576f52dc48878439142897801a582b, type: 3}
---- !u!4 &1421462309 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-  m_PrefabInstance: {fileID: 1421462308}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1430101615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124836, guid: b4bb1f5d4e31a07409ece01b4cf53b22, type: 3}
@@ -18833,18 +17903,13 @@ Transform:
   m_Children:
   - {fileID: 2128619052}
   - {fileID: 1761195001}
-  - {fileID: 288970699}
   - {fileID: 798040776}
   - {fileID: 2107164222}
   - {fileID: 1103568859}
   - {fileID: 191282698}
-  - {fileID: 353958010}
-  - {fileID: 448056062}
   - {fileID: 1227910005}
   - {fileID: 579312888}
-  - {fileID: 53580353}
   - {fileID: 472514513}
-  - {fileID: 1973669885}
   - {fileID: 1868155353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19162,80 +18227,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6, y: 2, z: 1}
   m_Center: {x: -3.1956918, y: 1, z: 0.046236437}
---- !u!1001 &1646963266
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 353958010}
-    m_Modifications:
-    - target: {fileID: 100000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_Name
-      value: DruidTome
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7281413
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.670241
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08999634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26258036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0047664205
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef576f52dc48878439142897801a582b, type: 3}
---- !u!4 &1646963267 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-  m_PrefabInstance: {fileID: 1646963266}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1648019997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3230732931169921993, guid: 54550fa7869561c40be4094791c00f26, type: 3}
@@ -20122,80 +19113,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7152329325757311607, guid: 4a1108470497be443bdb83c7b9345cfe, type: 3}
   m_PrefabInstance: {fileID: 806370266}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1716914551
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 448056062}
-    m_Modifications:
-    - target: {fileID: 100000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_Name
-      value: DruidTome
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7281413
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.670241
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08999634
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26258036
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0047664205
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef576f52dc48878439142897801a582b, type: 3}
---- !u!4 &1716914552 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: ef576f52dc48878439142897801a582b, type: 3}
-  m_PrefabInstance: {fileID: 1716914551}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1720808562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20771,9 +19688,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - libro 1
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "Para ponerle fin a esta pesadilla, alguien deber\xE1 reunir los documentos y
+    devolverlos al lugar de origen."
+  - "Solo el ritual sagrado realizado aqu\xED en el bosque podr\xE1 salvarnos."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1761195004
@@ -21964,9 +20881,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "El altar est\xE1 en lo profundo, pero los monstruos tambi\xE9n lo saben."
+  - "3. No te conf\xEDes\u2026 ni siquiera un segundo. "
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1868155356
@@ -22846,183 +21762,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7348643258206407952, guid: b76de77e9e36a1c44b094c10711555eb, type: 3}
   m_PrefabInstance: {fileID: 1962234027}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1973669884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1973669885}
-  - component: {fileID: 1973669891}
-  - component: {fileID: 1973669890}
-  - component: {fileID: 1973669889}
-  - component: {fileID: 1973669888}
-  - component: {fileID: 1973669887}
-  - component: {fileID: 1973669886}
-  m_Layer: 0
-  m_Name: Documetos (13)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1973669885
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 76, y: -80.99, z: -183}
-  m_LocalScale: {x: 1, y: 0.34275213, z: 1.4662}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 251791120}
-  m_Father: {fileID: 1606945277}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1973669886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcd503c7a35681844b7c20b380a733e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 2
-  type: Documentos
-  description: 
-  icon: {fileID: 0}
-  pickedUp: 0
-  equipped: 0
-  keyManager: {fileID: 0}
-  DocumentManager: {fileID: 0}
-  key: {fileID: 0}
-  Document: {fileID: 0}
-  playersKey: 0
-  playersDocument: 0
---- !u!114 &1973669887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f905b2f2cb059448635bfc2d1a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1244930665}
-  didDialogueStart: 0
-  lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
-  dialogueText: {fileID: 2013046704}
-  textSpeed: 0.01
---- !u!65 &1973669888
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.99999994, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1973669889
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8746033, y: 5.0082636, z: 2.2537262}
-  m_Center: {x: 0.07594299, y: 2.004132, z: 0.006775181}
---- !u!23 &1973669890
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1973669891
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973669884}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1977143697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25196,9 +23935,12 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - empieza el juego
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "Las voces susurran sobre el laberinto y el altar\u2026"
+  - "dicen que ambos lugares fueron creados para contener la oscuridad que una vez
+    trat\xF3 de devorarnos."
+  - "Pero en su ignorancia, el pueblo sell\xF3 el laberinto, y ahora el mal se extiende
+    hacia nosotros."
+  - ' Solo hay una forma de parar esto y es el altar'
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &2107164225
@@ -25427,8 +24169,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 506115396}
   didDialogueStart: 0
   lines:
-  - Hola
-  - Hola...
+  - "As\xED que lograste salir del laberinto\u2026"
+  - "pero lo peor a\xFAn te espera aqu\xED en el bosque."
   dialogueText: {fileID: 825886534}
   textSpeed: 0.01
 --- !u!65 &2116465844
@@ -25579,9 +24321,10 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - libro 2
-  - juanita y felipe seran novios??
-  - lo veremos en el proximo capitulo
+  - "A quienes huyeron del pueblo: En nuestras reuniones finales en la iglesia, muchos
+    decidieron marcharse hacia el bosque, creyendo que all\xED hallar\xEDan seguridad."
+  - "Pero escaparse al bosque no es una soluci\xF3n; es aqu\xED donde surgi\xF3 la
+    maldici\xF3n, en el coraz\xF3n mismo del altar."
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &2128619048
