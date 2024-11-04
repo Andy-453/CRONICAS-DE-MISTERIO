@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pueblo.unity
     guid: e883f1179d0cfca45b1ee959dbd64976
+  - enabled: 1
+    path: Assets/Scenes/Laberinto.yf.unity
+    guid: cf6d29cc23b16454ab9439e516e60f8b
+  - enabled: 1
+    path: Assets/Scenes/FOREST.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -90,7 +90,7 @@ BlendTree:
     m_DirectBlendParameter: Velx
     m_Mirror: 0
   m_BlendParameter: Velx
-  m_BlendParameterY: Velx
+  m_BlendParameterY: Velz
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1

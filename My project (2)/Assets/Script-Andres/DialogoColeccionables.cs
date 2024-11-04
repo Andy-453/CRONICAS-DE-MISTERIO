@@ -15,7 +15,7 @@ public class DialogoColeccionables : MonoBehaviour
     public float textSpeed = 0.01f;
     void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.V))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.R))
         {
             if (!didDialogueStart)
             {
