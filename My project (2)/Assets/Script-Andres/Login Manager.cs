@@ -46,7 +46,7 @@ public class LoginManager : MonoBehaviour
         // Crear el contenido de la solicitud en JSON
         string jsonBody = $"{{\"email\":\"{email}\",\"password\":\"{password}\"}}";
 
-        string url = "https://localhost:7275/api/Auth/login"; // Asegúrate de usar HTTPS si es posible
+        string url = "https://cronicasdemisterio4.somee.com/api/Auth/login"; // Asegúrate de usar HTTPS si es posible
         using (UnityWebRequest webRequest = new UnityWebRequest(url, "POST"))
         {
             // Convertir el cuerpo JSON en bytes
