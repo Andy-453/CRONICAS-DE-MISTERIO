@@ -9,6 +9,8 @@ public class IA : MonoBehaviour
 
     public Transform[] destination;
 
+    public Animator animator;
+
     private int i = 0;
 
     public float distanceToFollowPath = 2f;
@@ -16,6 +18,8 @@ public class IA : MonoBehaviour
     [Header("-----------Follow------------")]
 
     public bool followPlayer;
+
+    public bool attack;
 
     private GameObject player;
 
@@ -59,6 +63,21 @@ public class IA : MonoBehaviour
 
     public void FollowPlayer()
     {
-        navMeshAgent.destination = player.transform.position;
+        if(Vector3.Distance(transform.position, player.transform.position) > 1 && !attack)
+        {
+            navMeshAgent.destination = player.transform.position;
+            animator.SetBool("Attack", false);
+        }
+        else
+        {
+            animator.SetBool("Walk", false);
+            animator.SetBool("Attack", true);
+            attack = true;
+        }
+    }
+    public void Final_Ani()
+    {
+        animator.SetBool("Attack", false );
+        attack = false;
     }
 }

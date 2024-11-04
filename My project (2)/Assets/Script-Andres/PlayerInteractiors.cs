@@ -11,5 +11,9 @@ public class PlayerInteractior : MonoBehaviour
 
             Destroy(other.gameObject);
         }
+        if (other.gameObject.CompareTag("Arma"))
+        {
+            GameManager.Instance.LoseHealth(10);
+        }
     }
 }
