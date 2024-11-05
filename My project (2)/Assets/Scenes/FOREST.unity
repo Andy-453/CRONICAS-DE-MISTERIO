@@ -2049,6 +2049,8 @@ MonoBehaviour:
     y traer los documentos
   - "El bosque es el fin y el principio; aqu\xED terminar\xE1 todo, o la oscuridad
     atrapar\xE1 a los vivos y los muertos."
+  - ya.... no se puede.... los documentos han desaparecido
+  - ENCUENTRA LA PUERTA, SAL DE ESTE LUGAR
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &191282701
@@ -5996,8 +5998,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1244930665}
   didDialogueStart: 0
   lines:
-  - "Encuentra los documentos, y ll\xE9valos al altar. Si fallas, ser\xE1 el fin\u2026
-    para ti y para todos."
+  - Encuentra la salida
   - Las personas que me han hablado hasta aqui no son humanas...
   - No estan vivas
   dialogueText: {fileID: 2013046704}
@@ -7180,6 +7181,8 @@ MonoBehaviour:
   - "\xBFBuscas detener a los monstruos?"
   - "El ritual es la \xFAnica forma."
   - "Los documentos est\xE1n esparcidos en el bosque, pero el tiempo se agota."
+  - ......han desaparecido......
+  - y con ello nuestras esperanzas
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &579312891
@@ -15830,7 +15833,8 @@ MonoBehaviour:
   - "El bosque es el \xFAltimo refugio."
   - El altar guarda el poder de sellarlo, pero solo si se completa el ritual con
     los objetos correctos.
-  - lo veremos en el proximo capitulo
+  - los documentos, han desaparecido
+  - NO HAY MANERA DE PARAR SOLO QUEDA SALIR
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1227910008
@@ -22702,6 +22706,8 @@ MonoBehaviour:
   - "Para ponerle fin a esta pesadilla, alguien deber\xE1 reunir los documentos y
     devolverlos al lugar de origen."
   - "Solo el ritual sagrado realizado aqu\xED en el bosque podr\xE1 salvarnos."
+  - No no no no no NO NOO
+  - algo salio mal los documentos no estan, debemos salir buscar la salida
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1761195004
@@ -23992,6 +23998,9 @@ MonoBehaviour:
   lines:
   - "El altar est\xE1 en lo profundo, pero los monstruos tambi\xE9n lo saben."
   - " No te conf\xEDes\u2026 ni siquiera un segundo. "
+  - ............
+  - estos libros que e encontrado datan de hace mucho tiempo....
+  - la solucion solo desaparecio, no hay salvacion, solo muerte....
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &1868155356
@@ -28489,7 +28498,8 @@ MonoBehaviour:
     trat\xF3 de devorarnos."
   - "Pero en su ignorancia, el pueblo sell\xF3 el laberinto, y ahora el mal se extiende
     hacia nosotros."
-  - ' Solo hay una forma de parar esto y es el altar'
+  - ya no hay forma de parar esto, solo queda....
+  - salir
   dialogueText: {fileID: 2013046704}
   textSpeed: 0.01
 --- !u!65 &2107164225
